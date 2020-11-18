@@ -1,0 +1,42 @@
+canvas 
+{
+	width : 900px;
+	height : 600px;
+	margin-left : auto;
+	margin-right : auto;	
+}
+
+#canvas1
+{
+	position : absolute;
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 	
+	border : 30px solid gray; 
+}
+
+#canvas2
+{
+	position : absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	background: url('image/image_fond2.jpg');
+	background-size : contain;
+/*url('Version_optimise/image_fond2.jpg')  no-repeat center top;
+	*/
+}
+
+	
+/*canvas {position : absolute ; width : 80% ; height : auto ; left : 10%;}*/
+/*
+img
+{
+	display : block;
+	margin : 100px auto;
+	width : 900px;
+	height: 600px;
+	background: url('image_fond2.jpg') 
+}
+
+*/
