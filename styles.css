@@ -1,3 +1,14 @@
+body{
+	background: url('image/Papier-peint.jpg'); 
+	background-size : cover; 
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	color: orange;
+	font-family: 'Press Start 2P', sans-serif;
+}
 canvas 
 {
 	width : 900px;
@@ -22,21 +33,5 @@ canvas
 	left: 50%;
 	transform: translate(-50%, -50%); 
 	background: url('image/image_fond2.jpg');
-	background-size : contain;
-/*url('Version_optimise/image_fond2.jpg')  no-repeat center top;
-	*/
+	background-size : cover;
 }
-
-	
-/*canvas {position : absolute ; width : 80% ; height : auto ; left : 10%;}*/
-/*
-img
-{
-	display : block;
-	margin : 100px auto;
-	width : 900px;
-	height: 600px;
-	background: url('image_fond2.jpg') 
-}
-
-*/
